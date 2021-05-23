@@ -1,0 +1,422 @@
+
+[general]
+
+	[general.blocks]
+
+		[general.blocks.pedestal]
+			accept_any_item = true
+			spawn_particles = true
+
+	[general.relics]
+
+		[general.relics.general]
+			store_relic_owner = false
+			#Range: 0.0 ~ 2.147483647E9
+			damage_non_relic_owner_amount = 3.0
+
+		[general.relics.stats]
+
+			[general.relics.stats.arrow_quiver]
+				#Range: 0.0 ~ 1.0
+				multishot_chance = 0.2
+				#Range: > 0
+				multishot_cooldown = 2
+				#Range: > 0
+				additional_arrow_count = 4
+				#Range: > 0
+				arrow_pickup_radius = 16
+				#Range: > 0
+				arrow_pickup_cooldown = 3
+
+			[general.relics.stats.bastion_ring]
+				#Range: 0.0 ~ 1.0
+				locate_chance = 0.3
+
+			[general.relics.stats.blazing_flask]
+				#Range: 0.0 ~ 2.147483647E9
+				levitation_height = 5.0
+				#Range: 0.0 ~ 2.147483647E9
+				levitation_speed_multiplier = 0.75
+				#Range: > 0
+				ignite_duration = 5
+				#Range: > 0
+				fire_consumption_cooldown = 10
+				#Range: > 0
+				fire_consumption_radius = 10
+				#Range: > 0
+				fire_capacity = 100
+
+			[general.relics.stats.camouflage_ring]
+				#Range: > -2147483648
+				max_invisibility_time = 60
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				stealth_damage_multiplier = 2.0
+
+			[general.relics.stats.chorus_inhibitor]
+				#Range: > -2147483648
+				time_per_chorus = 30
+
+			[general.relics.stats.delay_ring]
+				#Range: > -2147483648
+				usage_cooldown = 60
+				#Range: > -2147483648
+				delay_duration = 10
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				damage_multiplier = 1.0
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				healing_multiplier = 2.0
+
+			[general.relics.stats.drowned_belt]
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				underwater_speed_multiplier = -0.25
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				incoming_damage_multiplier = 1.5
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				dealt_damage_multiplier = 3.0
+
+			[general.relics.stats.elytra_booster]
+				#Range: 0.0 ~ 2.147483647E9
+				movement_speed_multiplier = 1.5
+				#Range: 0.0 ~ 2.147483647E9
+				ram_damage_amount = 5.0
+				#Range: 0.0 ~ 2.147483647E9
+				ram_knockback_power = 3.0
+				#Range: 0.0 ~ 2.147483647E9
+				breath_consumption_radius = 10.0
+				#Range: > 0
+				breath_capacity = 1000
+				#Range: 0.0 ~ 2.147483647E9
+				breath_consumption_amount = 0.02
+				#Range: > 0
+				breath_regeneration_cooldown = 2
+
+			[general.relics.stats.enders_hand]
+				#Range: > 0
+				time_before_teleporting = 1
+				#Range: > 0
+				max_teleport_instance = 64
+				#Range: > 0
+				teleport_cooldown = 10
+
+			[general.relics.stats.fragrant_flower]
+				#Range: > 0
+				bee_luring_radius = 16
+				#Range: > 0
+				bee_aggro_radius = 32
+				#Range: 0.0 ~ 2.147483647E9
+				bee_damage_multiplier = 3.0
+				#Range: > 0
+				nectar_capacity = 10
+				#Range: 0.0 ~ 2.147483647E9
+				nectar_consumption_radius = 3.0
+				#Range: > 0
+				effect_radius = 5
+				#Range: > 0
+				grow_efficiency = 2
+				#Range: 0.0 ~ 2.147483647E9
+				heal_amount = 10.0
+
+			[general.relics.stats.holy_locket]
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				damage_multiplier = 1.5
+				#Range: 0.0 ~ 2.147483647E9
+				arson_chance = 0.25
+				#Range: > 0
+				burn_duration = 4
+
+			[general.relics.stats.hunter_belt]
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				player_damage_multiplier = 2.0
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				pet_damage_multiplier = 3.0
+				#Range: > -2147483648
+				additional_looting = 1
+
+			[general.relics.stats.ice_breaker]
+				#Range: > 0
+				min_fall_distance = 3
+				#Range: 0.0 ~ 2.147483647E9
+				fall_motion_multiplier = 1.075
+				#Range: 0.0 ~ 2.147483647E9
+				stomp_cooldown_multiplier = 3.0
+				#Range: 0.0 ~ 2.147483647E9
+				dealt_damage_multiplier = 1.0
+				#Range: 0.0 ~ 2.147483647E9
+				max_dealt_damage = 100.0
+				#Range: 0.0 ~ 2.147483647E9
+				stomp_radius_multiplier = 0.5
+				#Range: 0.0 ~ 2.147483647E9
+				stomp_motion_multiplier = 1.01
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				movement_speed_multiplier = -0.1
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				additional_knockback_resistance = 0.5
+				#Range: 0.0 ~ 2.147483647E9
+				incoming_fall_damage_multiplier = 0.0
+				#Range: 0.0 ~ 2.147483647E9
+				wall_slipping_speed = 0.1
+
+			[general.relics.stats.ice_skates]
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				movement_speed_multiplier = 1.1
+				#Range: > -2147483648
+				max_speedup_time = 10
+				#Range: > -2147483648
+				speedup_time_per_ram = 2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				ram_radius = 1.0
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				base_ram_damage_amount = 2.0
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				falling_damage_multiplier = 0.25
+
+			[general.relics.stats.jellyfish_necklace]
+				#Range: > -2147483648
+				time_per_charge = 60
+				#Range: > -2147483648
+				max_charges_amount = 10
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				damage_per_charge = 10.0
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				healing_multiplier = 2.0
+				#Range: 0.0 ~ 2.147483647E9
+				attack_radius_multiplier = 1.2
+
+			[general.relics.stats.lucky_horseshoe]
+				#Range: 0.0 ~ 1.0
+				looting_chance = 0.1
+				#Range: 0.0 ~ 1.0
+				fortuna_chance = 0.1
+				#Range: > -2147483648
+				additional_looting = 3
+				#Range: > -2147483648
+				additional_fortune = 3
+
+			[general.relics.stats.magic_mirror]
+				#Range: > 0
+				usage_cooldown = 60
+
+			[general.relics.stats.midnight_robe]
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				movement_speed_multiplier = 1.25
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				health_percentage = 0.2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				stealth_damage_multiplier = 2.0
+				#Range: > -2147483648
+				attack_invisibility_penalty = 5
+
+			[general.relics.stats.out_runner]
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				speed_multiplier = 1.25
+				#Range: 0.0 ~ 2.147483647E9
+				step_height = 1.1
+				#Range: > 0
+				time_before_activation = 5
+
+			[general.relics.stats.rage_glove]
+				#Range: > -2147483648
+				stack_time = 5
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				min_damage_amount = 3.0
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				dealing_damage_multiplier_per_stack = 0.1
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				incoming_damage_multiplier_per_stack = 0.05
+
+			[general.relics.stats.reflection_necklace]
+				#Range: > -2147483648
+				max_charges = 3
+				#Range: > -2147483648
+				min_time_per_charge = 60
+				#Range: > -2147483648
+				max_throw_distance = 10
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				reflection_damage_multiplier = 2.0
+
+			[general.relics.stats.scarab_talisman]
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				speed_multiplier = 1.5
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				step_height = 1.1
+
+			[general.relics.stats.shadow_glaive]
+				#Range: 0.0 ~ 1.0
+				summon_chance = 0.35
+				#Range: 0.0 ~ 2.147483647E9
+				min_damage_for_summon = 1.0
+				#Range: > 0
+				max_distance_for_summon = 5
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				initial_damage_multiplier = 1.25
+				#Range: > 0
+				summon_cooldown = 1
+				#Range: 0.0 ~ 2.147483647E9
+				additional_bounce_chance_multiplier = 0.025
+				#Range: > 0
+				additional_bounce_radius = 7
+				#Range: 0.0 ~ 2.147483647E9
+				movement_speed = 0.45
+				#Range: > 0
+				max_bounces_amount = 10
+				#Range: 0.0 ~ 2.147483647E9
+				min_damage_per_bounce = 1.0
+				#Range: 0.0 ~ 2.147483647E9
+				damage_multiplier_per_bounce = 0.05
+
+			[general.relics.stats.soul_devourer]
+				#Range: > 0
+				time_per_soul_decrease = 10
+				#Range: > 0
+				min_soul_decrease_amount = 5
+				#Range: 0.0 ~ 2.147483647E9
+				soul_decrease_multiplier_per_soul = 0.1
+				#Range: > 0
+				min_soul_amount_for_explosion = 50
+				#Range: > 0
+				explosion_preparing_time = 12
+				#Range: 0.0 ~ 2.147483647E9
+				explosion_radius = 10.0
+				#Range: 0.0 ~ 2.147483647E9
+				explosion_velocity_multiplier = 5.0
+				#Range: 0.0 ~ 2.147483647E9
+				min_explosion_damage_amount = 2.0
+				#Range: 0.0 ~ 2.147483647E9
+				explosion_damage_per_soul_multiplier = 0.75
+				#Range: > 0
+				explosion_cooldown = 60
+				#Range: > 0
+				soul_capacity = 100
+				#Range: 0.0 ~ 2.147483647E9
+				soul_per_health_multiplier = 0.25
+				#Range: 0.0 ~ 2.147483647E9
+				additional_damage_per_soul_multiplier = 0.1
+
+			[general.relics.stats.space_dissector]
+				#Range: 0.0 ~ 2.147483647E9
+				movement_speed = 0.75
+				#Range: > 0
+				max_thrown_time = 60
+				#Range: > 0
+				time_before_return = 10
+				#Range: > 0
+				distance_for_teleport = 5
+				#Range: > 0
+				cooldown_after_teleport = 30
+				#Range: > 0
+				cooldown_after_return = 5
+				#Range: > 0
+				max_bounces_amount = 10
+				#Range: > 0
+				additional_time_per_bounce = 4
+				#Range: 0.0 ~ 2.147483647E9
+				base_damage_amount = 4.0
+				#Range: 0.0 ~ 2.147483647E9
+				damage_multiplier_per_bounce = 2.0
+
+			[general.relics.stats.spatial_sign]
+				#Range: > -2147483648
+				time_before_activation = 30
+
+			[general.relics.stats.spider_necklace]
+				#Range: 0.0 ~ 2.147483647E9
+				climbing_speed = 0.2
+
+			[general.relics.stats.spore_sack]
+				#Range: 0.0 ~ 1.0
+				spore_chance = 0.3
+				#Range: > 0
+				spore_radius = 3
+				#Range: > 0
+				spore_cooldown = 5
+				#Range: > 0
+				poison_amplifier = 2
+				#Range: > 0
+				poison_duration = 5
+				#Range: > 0
+				slowness_amplifier = 0
+				#Range: > 0
+				slowness_duration = 5
+
+			[general.relics.stats.stellar_catalyst]
+				#Range: 0.0 ~ 1.0
+				falling_star_summon_chance = 0.15
+				#Range: 0.0 ~ 2.147483647E9
+				falling_star_damage_multiplier = 0.75
+				#Range: 0 ~ 256
+				min_falling_star_summon_height = 20
+				#Range: 0 ~ 256
+				additional_falling_star_summon_height = 20
+				#Range: > 0
+				falling_star_damage_radius = 3
+				#Range: 0.0 ~ 2.147483647E9
+				falling_star_impact_motion_multiplier = 1.0
+				#Range: 0.0 ~ 2.147483647E9
+				min_damage_amount = 3.0
+				#Range: 0.0 ~ 2.147483647E9
+				falling_star_speed = 0.7
+
+		[general.relics.worldgen]
+			relics_worldgen_enabled = true
+			#Range: 0.0 ~ 1.0
+			arrow_quiver_gen_chance = 0.2
+			#Range: 0.0 ~ 1.0
+			bastion_ring_gen_chance = 0.15
+			#Range: 0.0 ~ 1.0
+			blazing_flask_gen_chance = 0.05
+			#Range: 0.0 ~ 1.0
+			camouflage_ring_gen_chance = 0.2
+			#Range: 0.0 ~ 1.0
+			chorus_inhibitor_gen_chance = 0.15
+			#Range: 0.0 ~ 1.0
+			delay_ring_gen_chance = 0.05
+			#Range: 0.0 ~ 1.0
+			drowned_belt_gen_chance = 0.3
+			#Range: 0.0 ~ 1.0
+			elytra_booster_gen_chance = 0.15
+			#Range: 0.0 ~ 1.0
+			enders_hand_gen_chance = 0.3
+			#Range: 0.0 ~ 1.0
+			fragrant_flower_gen_chance = 0.2
+			#Range: 0.0 ~ 1.0
+			hunter_belt_gen_chance = 0.2
+			#Range: 0.0 ~ 1.0
+			ice_breaker_gen_chance = 0.2
+			#Range: 0.0 ~ 1.0
+			ice_skates_gen_chance = 0.2
+			#Range: 0.0 ~ 1.0
+			jellyfish_necklace_gen_chance = 0.2
+			#Range: 0.0 ~ 1.0
+			lucky_horseshoe_gen_chance = 0.15
+			#Range: 0.0 ~ 1.0
+			magic_mirror_gen_chance = 0.15
+			#Range: 0.0 ~ 1.0
+			magma_walker_gen_chance = 0.12
+			#Range: 0.0 ~ 1.0
+			midnight_robe_gen_chance = 0.15
+			#Range: 0.0 ~ 1.0
+			out_runner_gen_chance = 0.05
+			#Range: 0.0 ~ 1.0
+			rage_glove_gen_chance = 0.05
+			#Range: 0.0 ~ 1.0
+			reflection_necklace_gen_chance = 0.05
+			#Range: 0.0 ~ 1.0
+			scarab_talisman_gen_chance = 0.14
+			#Range: 0.0 ~ 1.0
+			shadow_glaive_gen_chance = 0.025
+			#Range: 0.0 ~ 1.0
+			soul_devourer_gen_chance = 0.05
+			#Range: 0.0 ~ 1.0
+			space_dissector_gen_chance = 0.05
+			#Range: 0.0 ~ 1.0
+			spatial_sign_gen_chance = 0.25
+			#Range: 0.0 ~ 1.0
+			spider_necklace_gen_chance = 0.25
+			#Range: 0.0 ~ 1.0
+			spore_sack_gen_chance = 0.3
+			#Range: 0.0 ~ 1.0
+			stellar_catalyst_gen_chance = 0.05
+
+		[general.relics.compatibility]
+			warn_about_old_forge = true
+

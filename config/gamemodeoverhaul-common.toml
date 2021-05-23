@@ -1,0 +1,27 @@
+
+#GamemodeOverhaul's command config settings
+[commands]
+	#Set this to false if you don't want the mod to add the '/gm' command
+	enableGMCommand = true
+	#Set this to false if you don't the mod to add '/gmc', '/gms', '/gmsp' and '/gma'
+	enableReallyShortGMCommands = true
+	#Set this to false if you don't want the mod to add the '/dgm' command
+	enableDGMCommand = true
+	#Set this to false if you don't want the mod to add the integer valuse for '/difficulty'
+	enableDifficultyIntegerExtension = true
+	#Set this to false if you want to have '/kill' require an entity argument
+	enableKillCommand = true
+	#Set this to false if you don't want to have the mod add '/toggledownfall' back
+	enableToggledownfallCommand = true
+	#Set this to false if you don't want to have the mod add '/xp <number>[L]' back
+	enableXPCommand = true
+	#Set this to whatever you want '/[THIS] <number[L]>' to be. It CANNOT be 'xp' due to limitations in Minecraft.
+	setXPCommandString = "xps"
+
+#GamemodeOverhaul's misc. config settings
+[misc]
+	#Set this to true if you want GamemodeOverhaul to send a welcome message when you join a world
+	enableWelcomeMessage = false
+	#Set this to true if you want GamemodeOverhaul to log debug messages
+	enableDebugMessages = false
+
