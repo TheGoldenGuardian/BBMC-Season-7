@@ -3,3 +3,8 @@ Removed TheAbyss2
 Removed TA2 Beginning
 Removed BloodMagic
 Removed Stoneholm
+
+| 5/24/2021 |
+Removed Vampirism
+Removed VampiresNeedUmbrellas
+Removed VampirismIntegrations
