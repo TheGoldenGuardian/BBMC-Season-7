@@ -8,3 +8,6 @@ Removed Stoneholm
 Removed Vampirism
 Removed VampiresNeedUmbrellas
 Removed VampirismIntegrations
+
+Removed EverlastingAbilities
+Removed CyclopsCore
